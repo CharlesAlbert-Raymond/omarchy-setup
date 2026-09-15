@@ -3,6 +3,7 @@
 # Tooling
 . ./install-stow.sh
 . ./install-firacode-font.sh
+. ./install-github-cli.sh
 . ./install-claude-code.sh
 . ./install-docker-desktop.sh
 . ./install-herdr.sh
