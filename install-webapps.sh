@@ -18,10 +18,10 @@ need_webapp() {
   fi
 }
 
-# Pinned to the personal Chrome profile, same as the ALT+W binding in
+# Pinned to the personal Chrome profile, same as the bindings in
 # webapps-omarchy.conf (see the profile-dir note there).
 need_webapp "Missive" "https://mail.missiveapp.com/#inbox" --profile-directory=Default
-need_webapp "Apple Music" "https://music.apple.com/"
+need_webapp "Apple Music" "https://music.apple.com/" --profile-directory=Default
 
 # Bindings live in webapps-omarchy.conf, sourced via overrides-omarchy.conf.
 if command -v hyprctl >/dev/null 2>&1 && [ -n "$HYPRLAND_INSTANCE_SIGNATURE" ]; then
