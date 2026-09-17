@@ -4,10 +4,12 @@
 . ./install-stow.sh
 . ./install-firacode-font.sh
 . ./install-github-cli.sh
+. ./install-pnpm.sh
 . ./install-claude-code.sh
 . ./install-docker-desktop.sh
 . ./install-herdr.sh
 . ./install-cameractrls.sh
+. ./install-tether.sh
 
 # Apps bound to ALT+<key> in webapps-omarchy.conf
 . ./install-ghostty.sh
